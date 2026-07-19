@@ -1,46 +1,38 @@
 # NeuroFive-week1-task2-prompts-maryamarif
 internship tasks 
-# Machine Learning Algorithms – Beginner Explanations
+# Prompt Library v1
 
 ## Overview
-This project contains beginner-friendly explanations of five popular Machine Learning algorithms using different real-world datasets. Each explanation includes the algorithm's introduction, working, advantages, limitations, Python implementation using Scikit-learn, applications, interview questions, and a summary.
 
-## Contents
+This project demonstrates how reusable prompt templates can be used to generate consistent AI responses for Machine Learning learning tasks.
 
-1. **Decision Tree** – Iris Dataset
-   - Predicts iris flower species based on sepal and petal measurements.
+Instead of creating a new prompt each time, a single prompt template is reused by changing only the dataset and algorithm.
 
-2. **Logistic Regression** – Titanic Dataset
-   - Predicts whether a passenger survived the Titanic disaster.
+## Prompt Structure
 
-3. **Linear Regression** – House Prices Dataset
-   - Predicts house prices using features such as living area and overall quality.
+- Role
+- Context
+- Task
+- Format
+- Constraints
 
-4. **K-Means Clustering** – Mall Customers Dataset
-   - Groups customers based on annual income and spending behavior.
+## Included Prompt Variations
 
-5. **Random Forest** – Customer Churn Dataset
-   - Predicts whether a customer is likely to leave a company or stay.
+- Iris + Decision Tree
+- Titanic + Logistic Regression
+- House Prices + Linear Regression
+- Mall Customers + K-Means
+- Customer Churn + Random Forest
 
-## Technologies Used
-- Python
-- Scikit-learn
-- Pandas
-- Matplotlib (for visualization)
+## Tools Used
 
-## Learning Objectives
-- Understand the difference between supervised and unsupervised learning.
-- Learn when to use common machine learning algorithms.
-- Explore real-world datasets.
-- Build and evaluate machine learning models using Scikit-learn.
-- Prepare for machine learning interviews with common questions.
+- ChatGPT
 
-## Target Audience
-This project is designed for:
-- Beginners in Machine Learning
-- University students
-- AI/ML internship learners
-- Anyone learning Scikit-learn fundamentals
+## Key Takeaway
+
+Reusable prompts improve consistency, save time, and make prompt engineering more efficient.
+# Machine Learning Algorithms – Beginner Explanations
+
 
 ## License
 This project is intended for educational and learning purposes.
